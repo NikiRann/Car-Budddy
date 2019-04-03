@@ -1,0 +1,11 @@
+C:\Users\Yoan\Desktop\project\CarBuddy\CarBuddy\bin\Debug\netcoreapp2.1\CarBuddy.deps.json
+C:\Users\Yoan\Desktop\project\CarBuddy\CarBuddy\bin\Debug\netcoreapp2.1\CarBuddy.runtimeconfig.json
+C:\Users\Yoan\Desktop\project\CarBuddy\CarBuddy\bin\Debug\netcoreapp2.1\CarBuddy.runtimeconfig.dev.json
+C:\Users\Yoan\Desktop\project\CarBuddy\CarBuddy\bin\Debug\netcoreapp2.1\CarBuddy.dll
+C:\Users\Yoan\Desktop\project\CarBuddy\CarBuddy\obj\Debug\netcoreapp2.1\CarBuddy.csprojAssemblyReference.cache
+C:\Users\Yoan\Desktop\project\CarBuddy\CarBuddy\obj\Debug\netcoreapp2.1\CarBuddy.csproj.CoreCompileInputs.cache
+C:\Users\Yoan\Desktop\project\CarBuddy\CarBuddy\obj\Debug\netcoreapp2.1\CarBuddy.AssemblyInfoInputs.cache
+C:\Users\Yoan\Desktop\project\CarBuddy\CarBuddy\obj\Debug\netcoreapp2.1\CarBuddy.AssemblyInfo.cs
+C:\Users\Yoan\Desktop\project\CarBuddy\CarBuddy\bin\Debug\netcoreapp2.1\CarBuddy.pdb
+C:\Users\Yoan\Desktop\project\CarBuddy\CarBuddy\obj\Debug\netcoreapp2.1\CarBuddy.dll
+C:\Users\Yoan\Desktop\project\CarBuddy\CarBuddy\obj\Debug\netcoreapp2.1\CarBuddy.pdb
