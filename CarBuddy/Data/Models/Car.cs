@@ -7,9 +7,10 @@ namespace CarBuddy.Data.Models
 {
 	public class Car
 	{
-		//[Key]
+		[Key]
 		public int Id { get; set; }
-		//[Required]
+		[Required]
+		[MaxLength(30)]
 		public string Model { get; set; }
 	}
 }

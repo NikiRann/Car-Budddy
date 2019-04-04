@@ -18,6 +18,12 @@ namespace CarBuddy.Data
 
 		}
 
+		public DbSet<User> Users { get; set; }
+
+		public DbSet<Car> Cars { get; set; }
+
+		public DbSet<Note> Notes { get; set; }
+
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) //nastroiva vruskata s bazata
 		{
 			if (!optionsBuilder.IsConfigured)

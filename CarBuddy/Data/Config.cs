@@ -6,7 +6,7 @@ namespace CarBuddy.Data
 {
 	public static class Config
 	{
-		public const string ConnectionString = "Server.local\\SQLEXPRESS; Datebase=CarNotes; Integrated Security = true";
+		public const string ConnectionString = "Server=.\\SQLExpress; Database=CarNotes; Integrated Security = true";
 	}
 
 }
