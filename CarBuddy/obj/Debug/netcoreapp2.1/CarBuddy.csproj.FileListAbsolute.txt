@@ -1,0 +1,8 @@
+C:\Users\niko\Documents\Softuni Projects\Car Buddy\CarBuddy\bin\Debug\netcoreapp2.1\CarBuddy.deps.json
+C:\Users\niko\Documents\Softuni Projects\Car Buddy\CarBuddy\bin\Debug\netcoreapp2.1\CarBuddy.runtimeconfig.json
+C:\Users\niko\Documents\Softuni Projects\Car Buddy\CarBuddy\bin\Debug\netcoreapp2.1\CarBuddy.runtimeconfig.dev.json
+C:\Users\niko\Documents\Softuni Projects\Car Buddy\CarBuddy\bin\Debug\netcoreapp2.1\CarBuddy.dll
+C:\Users\niko\Documents\Softuni Projects\Car Buddy\CarBuddy\obj\Debug\netcoreapp2.1\CarBuddy.csprojAssemblyReference.cache
+C:\Users\niko\Documents\Softuni Projects\Car Buddy\CarBuddy\obj\Debug\netcoreapp2.1\CarBuddy.csproj.CoreCompileInputs.cache
+C:\Users\niko\Documents\Softuni Projects\Car Buddy\CarBuddy\obj\Debug\netcoreapp2.1\CarBuddy.AssemblyInfoInputs.cache
+C:\Users\niko\Documents\Softuni Projects\Car Buddy\CarBuddy\obj\Debug\netcoreapp2.1\CarBuddy.AssemblyInfo.cs
