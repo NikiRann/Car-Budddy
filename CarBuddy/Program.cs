@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CarBuddy.Data.Models;
+using System;
 
 namespace CarBuddy
 {
@@ -6,7 +7,7 @@ namespace CarBuddy
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			
 		}
 	}
 }
