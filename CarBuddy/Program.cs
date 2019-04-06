@@ -7,7 +7,8 @@ namespace CarBuddy
 	{
 		static void Main(string[] args)
 		{
-			
+            Buisness.UserController controller = new Buisness.UserController();
+ 
 		}
 	}
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace CarBuddy.Data.Models
@@ -12,5 +13,14 @@ namespace CarBuddy.Data.Models
 		[Required]
 		[MaxLength(30)]
 		public string Model { get; set; }
+        [Required]
+        [ForeignKey("User")]
+
+        public int OwnerId { get; set; }
+
+        
+
+        //public ICollection<Note> notes { get; set; }
+
 	}
 }

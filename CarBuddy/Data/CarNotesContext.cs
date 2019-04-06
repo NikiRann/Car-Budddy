@@ -35,7 +35,7 @@ namespace CarBuddy.Data
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
-			//modelBuilder.Entity<User>().HasIndex(x => x.FirstName).IsUnique;
+			
 			base.OnModelCreating(modelBuilder);
 		}
 	}
