@@ -26,7 +26,8 @@ namespace CarBuddy.Data
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) //nastroiva vruskata s bazata
 		{
-			if (!optionsBuilder.IsConfigured)
+            optionsBuilder.UseLazyLoadingProxies();
+            if (!optionsBuilder.IsConfigured)
 			{
 				optionsBuilder.UseSqlServer(Config.ConnectionString);
 			}

@@ -20,7 +20,14 @@ namespace CarBuddy.Buisness
 
         public User FindUserByUsername(String username)
         {
-            User user = context.Users.FirstOrDefault(n => n.Username == username);
+            List<User> users = GetUsers();
+            User user = null;
+            foreach (User u in users)
+            {
+                if (u.Username == username)
+                    user = u;
+            }
+            
             return user;
         }
 
@@ -117,7 +124,7 @@ namespace CarBuddy.Buisness
             context.SaveChanges();
         }
 
-        public void deleteNote(int id)
+        public void DeleteNote(int id)
         {
             var note = context.Notes.Find(id);
 
