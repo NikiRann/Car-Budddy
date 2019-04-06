@@ -10,13 +10,13 @@ namespace CarBuddy.Data.Models
 		[Key]
 		public int Id { get; set; }
         [Required]
-        [MaxLength(20)]
+        [MaxLength(50)]
         public string Username { get; set; }
 		[Required] 
-		[MaxLength(20)]
+		[MaxLength(50)]
 		public string FirstName { get; set; }
 		[Required]
-		[MaxLength(20)]
+		[MaxLength(50)]
 		public string LastName { get; set; }
         
         //public ICollection<Car> cars { get; set; }

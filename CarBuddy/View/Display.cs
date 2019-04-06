@@ -105,14 +105,34 @@ namespace CarBuddy.View
                 AddNote(carId);
             if (input == step + 1)
             {
-                Garage();
+                
                 controller.DeleteCar(carId);
+                Garage();
+            }
+            if (input >= 1 && input <= step - 1)
+            {
+                showNote(notes[input - 1]);
+            }
+        }
+        private void showNote(Data.Models.Note note)
+        {
+            Console.Clear();
+            Console.WriteLine(note.Text);
+            Console.WriteLine("0. Back\n1. Delete Note");
+            int input = int.Parse(Console.ReadLine());
+            if (input == 0)
+                ShowCarNotes(note.CarId);
+            if (input == 1)
+            {
+                int carid = note.CarId;
+                controller.DeleteNote(note.Id);
+                ShowCarNotes(carid);
             }
         }
         private void AddCar()
         {
             Console.Clear();
-            Console.WriteLine("What is your car model ?:  ");
+            Console.WriteLine("What is your car model?:  ");
 
             Data.Models.Car car = new Data.Models.Car();
 

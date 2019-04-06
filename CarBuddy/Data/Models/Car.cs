@@ -11,13 +11,13 @@ namespace CarBuddy.Data.Models
 		[Key]
 		public int Id { get; set; }
 		[Required]
-		[MaxLength(30)]
+		[MaxLength(75)]
 		public string Model { get; set; }
         [Required]
         [ForeignKey("User")]
-
+        
         public int OwnerId { get; set; }
-
+  
         
 
         //public ICollection<Note> notes { get; set; }

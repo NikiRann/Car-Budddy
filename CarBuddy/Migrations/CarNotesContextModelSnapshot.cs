@@ -26,7 +26,7 @@ namespace CarBuddy.Migrations
 
                     b.Property<string>("Model")
                         .IsRequired()
-                        .HasMaxLength(30);
+                        .HasMaxLength(75);
 
                     b.Property<int>("OwnerId");
 
@@ -45,7 +45,7 @@ namespace CarBuddy.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(20);
+                        .HasMaxLength(100);
 
                     b.Property<string>("Text")
                         .HasMaxLength(500);
@@ -63,15 +63,15 @@ namespace CarBuddy.Migrations
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasMaxLength(20);
+                        .HasMaxLength(50);
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasMaxLength(20);
+                        .HasMaxLength(50);
 
                     b.Property<string>("Username")
                         .IsRequired()
-                        .HasMaxLength(20);
+                        .HasMaxLength(50);
 
                     b.HasKey("Id");
 
