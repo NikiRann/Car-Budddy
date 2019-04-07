@@ -17,7 +17,7 @@ namespace CarBuddy.Buisness
 		{
 			this.context = new CarNotesContext();
 		}
-
+        // Finds user by his username in the users table
         public User FindUserByUsername(String username)
         {
             List<User> users = GetUsers();
@@ -30,7 +30,7 @@ namespace CarBuddy.Buisness
             
             return user;
         }
-
+        // Checks if an username is free for use
         public bool CheckUsernameAvailability(String username)
         {
             List<User> users = GetUsers();
@@ -48,29 +48,32 @@ namespace CarBuddy.Buisness
 
             return result;
         }
-
+        // Returns all users
         public List<User> GetUsers()
         {
             return context.Users.ToList();
         }
-
+        // Adds an user
         public void AddUser(User user)
         {
             context.Users.Add(user);
             context.SaveChanges();
         }
+        // Adds a car
         public void AddCar(Car car, int userId)
         {
             car.OwnerId = userId;
             context.Cars.Add(car);
             context.SaveChanges();
         }
+        // adds a note
         public void AddNote(Note note, int carId)
         {
             note.CarId = carId;
             context.Notes.Add(note);
             context.SaveChanges();
         }
+        // Finds all cars owned by a ceratain user
         public List<Car> FindUserCars(int userId)
         {
             var allCars = context.Cars.ToList();
@@ -82,6 +85,7 @@ namespace CarBuddy.Buisness
             }
             return userCars;
         }
+        // Finds all notes releated to a car
         public List<Note> FindCarNotes(int carId)
         {
             var allNotes = context.Notes.ToList();
@@ -91,7 +95,7 @@ namespace CarBuddy.Buisness
                     carNotes.Add(note);
             return carNotes;
         }
-
+   
         public void DeleteUser(int id)
         {
             var user = context.Users.Find(id);
@@ -110,7 +114,7 @@ namespace CarBuddy.Buisness
             context.SaveChanges();
 
         }
-
+        
         public void DeleteCar(int id)
         {
             var car = context.Cars.Find(id);
